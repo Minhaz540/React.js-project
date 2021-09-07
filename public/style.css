@@ -1,3 +1,22 @@
-.hallColor {
-    color: rgb(255, 71, 246);
+.calculationContainer {
+    margin: 20px;
+}
+.calculationContainer button {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.calculationContainer input[type="text"] {
+    width: 80px;
+    font-size: 20px;
+    padding: 6px;
+    text-align: center;
 }
