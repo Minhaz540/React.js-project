@@ -14,7 +14,7 @@ document.querySelector(".miniPlayer .close").addEventListener(
   true
 );
 
-// tooptip
+// tooltip
 document.querySelector(".progress").addEventListener(
   "mouseover",
   function () {
