@@ -1,12 +1,12 @@
-import React from 'react';
-import classes from '../styles/Illustration.module.css';
+import React from "react";
+import classes from "../styles/Illustration.module.css";
 
 export default function Illustration(props) {
-    return (
-        <>
-            <div className={classes.illustration}>
-                <img src={props.src} alt="Signup" />
-            </div>
-        </>
-    )
+	return (
+		<>
+			<div className={classes.illustration}>
+				<img src={props.src} alt="Signup" />
+			</div>
+		</>
+	);
 }
