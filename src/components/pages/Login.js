@@ -5,6 +5,8 @@ import Illustration from '../Illustration';
 import classes from '../../styles/Login.module.css';
 import TextInput from '../TextInput';
 import Button from '../Button';
+import { Link } from "react-router-dom";
+
 
 export default function Login() {
     return (
@@ -19,7 +21,7 @@ export default function Login() {
                         <span>Submit now</span>
                     </Button>
                     <div className="info">
-                        Don't have an account? <a href="signup.html">Signup</a> instead.
+                        Don't have an account? <Link to="/signup">Signup</Link> instead.
                     </div>
                 </Form>
             </div>
