@@ -186,6 +186,7 @@
   aspect-ratio: 16 / 9;
   object-fit: cover;
   animation: miniplayerAnim 0.3s ease forwards;
+  -webkit-animation: miniplayerAnim 0.3s ease forwards;
 }
 
 .open {

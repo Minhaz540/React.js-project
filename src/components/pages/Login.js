@@ -15,7 +15,9 @@ export default function Login() {
                 <Form className={classes.login}>
                     <TextInput icon="alternate_email" type="text" placeholder="Enter email" />
                     <TextInput icon="lock" type="password" placeholder="Enter password" />
-                    <Button>Submit now</Button>
+                    <Button>
+                        <span>Submit now</span>
+                    </Button>
                     <div className="info">
                         Don't have an account? <a href="signup.html">Signup</a> instead.
                     </div>

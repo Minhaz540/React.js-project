@@ -1,13 +1,9 @@
 import React from 'react';
-import Login from './Login';
-// import Videos from '../Videos';
-// import Signup from './Signup';
+import Videos from '../Videos';
 
 
 export default function Home() {
     return (
-        // <Videos />
-        // <Signup />
-        <Login />
+        <Videos />
     )
 }
